@@ -1,4 +1,4 @@
-#include <iostream>  // std::ostream, std::cout, std::endl
+#include <iostream> // std::ostream, std::cout, std::endl
 
 #include <playground/seesaw.h>
 

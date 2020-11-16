@@ -1,6 +1,6 @@
 #include <fstream> // std::ifstream
-#include <string> // std::string
 #include <sstream> // std::ostringstream
+#include <string>  // std::string
 
 #include <gtest/gtest.h>
 
@@ -15,9 +15,7 @@ class PlaygroundSeesawTest : public ::testing::Test {
 
     void readTestData() {
 
-        testDataGreeting =
-            fileContentsToString(playground::TEST_DATA[playground::test_data____txt]);
-
+        testDataGreeting = fileContentsToString(playground::TEST_DATA[playground::test_data____txt]);
     }
 
     // declarations:
@@ -42,7 +40,5 @@ TEST_F(PlaygroundSeesawTest, GreetingTest) {
 
     EXPECT_EQ(seesaw.getGreeting(), "Hello from the Seesaw class!");
 
-
     EXPECT_EQ(testDataGreeting, "Hello from the test_data.txt!");
-
 }
