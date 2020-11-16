@@ -40,7 +40,7 @@ TEST_F(PlaygroundSeesawTest, GreetingTest) {
 
     playground::Seesaw seesaw;
 
-    EXPECT_EQ(seesaw.greeting(), "Hello from the Seesaw class!");
+    EXPECT_EQ(seesaw.getGreeting(), "Hello from the Seesaw class!");
 
 
     EXPECT_EQ(testDataGreeting, "Hello from the test_data.txt!");
