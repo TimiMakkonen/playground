@@ -1,0 +1,12 @@
+---
+Checks: '*,
+        -modernize-use-trailing-return-type,
+        -fuchsia-default-arguments-calls,
+        -readability-magic-numbers,
+        -cppcoreguidelines-avoid-magic-numbers,
+        -modernize-use-auto,
+        -hicpp-use-auto,
+        -cppcoreguidelines-owning-memory,
+        -cppcoreguidelines-macro-usage'
+
+WarningsAsErrors: '*'
