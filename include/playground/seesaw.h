@@ -12,7 +12,7 @@ namespace playground {
     // +---------+
 
 
-      std::string greeting = "Hello from Seesaw class!";
+      std::string greeting = "Hello from the Seesaw class!";
 
       public:
     // +-----------------+
