@@ -6,7 +6,7 @@
 namespace playground {
 
 class Seesaw {
-  private:
+         private:
     // +---------+
     // | fields: |
     // +---------+
