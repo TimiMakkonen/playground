@@ -20,4 +20,4 @@ jobs:
         author_email: timi.makkonen@gmail.com
         message: 'Format code using ''clang-format'''
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MY_REPO_ACCESS_TOKEN }}
