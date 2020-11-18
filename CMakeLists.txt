@@ -28,7 +28,7 @@ if(PLAYGROUND_CLANG_TIDY OR PLAYGROUND_CLANG_TIDY_EXAMPLES)
     DOC "Path to clang-tidy executable")
 
   if(NOT CLANG_TIDY_EXE)
-    message(STATUS "clang-tidy not found.")
+    message(FATAL_ERROR "clang-tidy not found.")
   else()
     message(STATUS "clang-tidy found: ${CLANG_TIDY_EXE}")
     # Allows to set clang-tidy for specific targets
