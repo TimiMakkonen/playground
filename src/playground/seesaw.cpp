@@ -2,12 +2,12 @@
 
 #include <playground/seesaw.h>
 
- namespace playground {
+namespace playground {
 
 // +----------+
 // | methods: |
 // +----------+
 
-                     std::string Seesaw::getGreeting() { return this->_greeting; }
+std::string Seesaw::getGreeting() { return this->_greeting; }
 
 } // namespace playground
