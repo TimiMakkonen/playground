@@ -1,4 +1,4 @@
-name: Run clang-format Linter
+name: clang-format
 
 on: [push, pull_request]
 
