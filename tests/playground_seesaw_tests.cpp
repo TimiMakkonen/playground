@@ -1,6 +1,6 @@
+#include <string>  // std::string
 #include <fstream> // std::ifstream
 #include <sstream> // std::ostringstream
-#include <string>  // std::string
 
 #include <gtest/gtest.h>
 

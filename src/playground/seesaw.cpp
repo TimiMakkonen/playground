@@ -2,7 +2,7 @@
 
 #include <playground/seesaw.h>
 
-namespace playground {
+         namespace playground {
 
 // +----------+
 // | methods: |

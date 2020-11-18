@@ -1,7 +1,7 @@
 #ifndef PLAYGROUND_SEESAW_H
 #define PLAYGROUND_SEESAW_H
 
-#include <string> // std::string
+    #include <string> // std::string
 
 namespace playground {
 

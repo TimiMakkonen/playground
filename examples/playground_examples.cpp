@@ -8,8 +8,8 @@ void examples() {
 
     std::cout << "Hello from the examples file!" << std::endl;
 
-    playground::Seesaw seesaw;
-    std::cout << seesaw.getGreeting() << std::endl;
+        playground::Seesaw seesaw;
+     std::cout << seesaw.getGreeting() << std::endl;
 }
 
 int main() {
