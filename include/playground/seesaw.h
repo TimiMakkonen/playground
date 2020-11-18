@@ -11,7 +11,7 @@ class Seesaw {
     // | fields: |
     // +---------+
 
-    std::string greeting = "Hello from the Seesaw class!";
+    std::string _greeting = "Hello from the Seesaw class!";
 
   public:
     // +-----------------+

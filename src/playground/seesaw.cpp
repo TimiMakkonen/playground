@@ -8,6 +8,6 @@ namespace playground {
 // | methods: |
 // +----------+
 
-std::string Seesaw::getGreeting() { return this->greeting; }
+std::string Seesaw::getGreeting() { return this->_greeting; }
 
 } // namespace playground
