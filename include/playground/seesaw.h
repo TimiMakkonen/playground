@@ -3,10 +3,10 @@
 
 #include <string> // std::string
 
- namespace playground {
+namespace playground {
 
 class Seesaw {
-    private:
+  private:
     // +---------+
     // | fields: |
     // +---------+
