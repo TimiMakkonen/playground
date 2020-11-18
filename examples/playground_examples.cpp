@@ -6,7 +6,7 @@ void examples() {
 
     // You can write some examples here
 
-       std::cout << "Hello from the examples file!" << std::endl;
+    std::cout << "Hello from the examples file!" << std::endl;
 
     playground::Seesaw seesaw;
     std::cout << seesaw.getGreeting() << std::endl;

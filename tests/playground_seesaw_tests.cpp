@@ -1,6 +1,6 @@
 #include <fstream> // std::ifstream
-#include <string>  // std::string
 #include <sstream> // std::ostringstream
+#include <string>  // std::string
 
 #include <gtest/gtest.h>
 
@@ -8,7 +8,7 @@
 
 #include <playground/seesaw.h>
 
-  class PlaygroundSeesawTest : public ::testing::Test {
+class PlaygroundSeesawTest : public ::testing::Test {
   protected:
     // used for setting up fields for testing
     void SetUp() override { readTestData(); }
@@ -38,7 +38,7 @@ TEST_F(PlaygroundSeesawTest, GreetingTest) {
 
     playground::Seesaw seesaw;
 
-     EXPECT_EQ(seesaw.getGreeting(), "Hello from the Seesaw class!");
+    EXPECT_EQ(seesaw.getGreeting(), "Hello from the Seesaw class!");
 
     EXPECT_EQ(testDataGreeting, "Hello from the test_data.txt!");
 }
