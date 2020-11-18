@@ -9,17 +9,22 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
+        # This is needed together with PAT to allow triggering push event from this action.
+        # https://github.community/t/push-from-action-does-not-trigger-subsequent-action/16854
         persist-credentials: false
+
     - uses: DoozyX/clang-format-lint-action@v0.11
       with:
         source: '.'
         extensions: 'h,cpp'
         clangFormatVersion: 10
         inplace: True
+
     - uses: EndBug/add-and-commit@v4
       with:
         author_name: Clang-format Robot
         author_email: timi.makkonen@gmail.com
         message: 'Format code using ''clang-format'''
       env:
+        # PAT needed to allow triggering push event from this action.
         GITHUB_TOKEN: ${{ secrets.MY_REPO_ACCESS_TOKEN }}
