@@ -3,8 +3,6 @@
 
 #include <string> // std::string
 
-#include <slide.hpp> // external_library::Slide
-
 namespace playground {
 
 class Seesaw {
@@ -14,8 +12,6 @@ class Seesaw {
     // +---------+
 
     std::string _greeting = "Hello from the Seesaw class!";
-
-    external_library::Slide _externalSlide;
 
   public:
     // +-----------------+
