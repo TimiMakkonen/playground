@@ -9,7 +9,7 @@ Checks: '*,
 
 WarningsAsErrors: '*'
 
-HeaderFilterRegex: 'playground\/[^\\\/]+\.(h|hpp)$'
+HeaderFilterRegex: 'playground\/.*+\.(h|hpp)$'
 
 CheckOptions:
   - key: readability-identifier-naming.ClassCase
