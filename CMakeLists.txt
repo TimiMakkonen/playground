@@ -116,6 +116,9 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
 
 endif()
 
+# Some external library is here
+add_subdirectory(extern/some-external-author)
+
 # The compiled library code is here
 add_subdirectory(src)
 
