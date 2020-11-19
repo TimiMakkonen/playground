@@ -20,8 +20,8 @@ target_include_directories("${LIBRARY_NAME}"
 target_include_directories("${LIBRARY_NAME}"
                            PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
 
-# All users need this external library
-target_link_libraries("${LIBRARY_NAME}" PUBLIC some_external_lib)
+# We need this external library
+target_link_libraries("${LIBRARY_NAME}" PRIVATE some_external_lib)
 
 # All users of this library will need at least C++11
 target_compile_features("${LIBRARY_NAME}" INTERFACE cxx_std_11)
