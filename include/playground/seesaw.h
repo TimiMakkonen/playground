@@ -13,6 +13,8 @@ class Seesaw {
 
     std::string _greeting = "Hello from the Seesaw class!";
 
+    int DELETEME = 1;
+
   public:
     // +-----------------+
     // | public methods: |
