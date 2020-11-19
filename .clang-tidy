@@ -11,7 +11,7 @@ WarningsAsErrors: '*'
 
 #HeaderFilterRegex: 'playground\/[^\\\/]\.(h|hpp)$'
 
-#HeaderFilterRegex: .*
+HeaderFilterRegex: .*
 
 CheckOptions:
   - key: readability-identifier-naming.ClassCase
